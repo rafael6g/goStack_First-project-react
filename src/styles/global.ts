@@ -15,8 +15,9 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
-  border-style, -moz-user-input, button {
-    font: 16px Roboto, sans-serif;
+  body, input, button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
   }
 
   #root {
